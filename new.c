@@ -18,7 +18,7 @@ int main(){
             printf("Higher number please!\n");
         }
         else{
-            printf("You guessed it in %d attempts\n", nguesses);
+            printf("You guessed it in %d attempts! Congratulations\n", nguesses);
         }
         nguesses++;
     }while(guess!=number);
