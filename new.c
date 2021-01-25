@@ -15,7 +15,7 @@ int main(){
             printf("Lower number please!!\n");
         }
         else if(guess<number){
-            printf("Higher number please!\n");
+            printf("Higher number please!!\n");
         }
         else{
             printf("You guessed it in %d attempts! Congratulations!!\n", nguesses);
